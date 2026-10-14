@@ -1,0 +1,22 @@
+# 1. Ignore the massive virtual environment folder
+ml_env/
+venv/
+
+# 2. Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. Ignore IDE settings and notebook checkpoints
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# 4. Ignore local datasets (CRITICAL: Never push heavy data to GitHub)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+*.json
